@@ -9,7 +9,8 @@
     align-items: center;
     transition: 400ms;
 }
-#modal.hide{
+
+#modal.hide {
     display: none;
 }
 
@@ -22,21 +23,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 48px;
 }
 
 #modal .header a {
-    background-image: url("../assets/x.svg");
-    height: 20px;
+    background: url('../assets/x.svg');
     width: 20px;
+    height: 20px;
     display: flex;
     font-size: 0.01px;
 }
 
 #modal .header h1 {
+    color: white;
     font-size: 36px;
     line-height: 42px;
-    color: white;
+    margin-bottom: 48px;
 }
 
 #modal form label {
@@ -66,7 +67,9 @@
     background-color: var(--primary-color);
     border: 0;
     border-radius: 0 8px 8px 0;
+    transition: background-color 400ms;
 }
-#modal form button:hover{
+
+#modal form button:hover {
     background-color: #2fb85e;
 }
